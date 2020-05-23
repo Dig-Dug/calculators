@@ -1,4 +1,5 @@
-package de.cbw.jav.calc;
+package calculators;
+
 
 public class TriangleApplication {
 
@@ -13,8 +14,8 @@ public class TriangleApplication {
 		final double angleA = .5 * Math.PI - calculateAngleB(b, c);
 
 		// step 3: output
-		System.out.format("Längen:\n\ta = %.2f\n\tb = %.2f\n\tc = %.2f\n\n", a, b, c);
-		System.out.format("Winkel:\n\talpha =\t%.1f°\n\tbeta =\t%.1f°\n\tgamma =\t90.0°\n\n", Math.toDegrees(angleA), Math.toDegrees(angleB));
+		System.out.format("LÃ¤ngen:\n\ta = %.2f\n\tb = %.2f\n\tc = %.2f\n\n", a, b, c);
+		System.out.format("Winkel:\n\talpha =\t%.1fÂ°\n\tbeta =\t%.1fÂ°\n\tgamma =\t90.0Â°\n\n", Math.toDegrees(angleA), Math.toDegrees(angleB));
 		System.out.format("Zeitstempel:\n\tZeit:\t%1$tH:%1$tM:%1$tS\n\tDatum:\t%1$td.%1$tm.%1$tY\n\n", System.currentTimeMillis());
 	}
 
