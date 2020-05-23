@@ -1,4 +1,5 @@
-package de.cbw.jav.calc;
+package calculators;
+
 
 public class GgtApp {
 
