@@ -1,9 +1,8 @@
-package de.cbw.jav.calc;
-
+package calculators;
 
 /**
- * Prime number application class.
- * @author Sascha Baumeister
+ * Simple calculator application class.
+ * @author Felipe L.
  */
 public class PrimeApplication {
 
