@@ -1,8 +1,8 @@
-package de.cbw.jav.calc;
+package calculators;
 
 /**
  * Simple calculator application class.
- * @author Sascha Baumeister
+ * @author Felipe L.
  */
 public class CalculatorApplication {
 
